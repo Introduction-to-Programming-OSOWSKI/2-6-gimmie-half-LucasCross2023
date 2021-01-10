@@ -1,7 +1,7 @@
 def gimmieHalf(x, y):
-    if x / 2 == y:
+    if y / 2 == x:
         return True 
     else:
         return False 
 
-print(gimmieHalf(4, 2))
+print(gimmieHalf(2, 4))
